@@ -838,7 +838,17 @@ MAX_DELTA_SRESTORE = 0.5
 MASK_SRESTORE_UNDER_ICE = False
 				! "[Boolean] default = False
 				!  If true, disables SSS restoring under sea-ice based on a frazil 
-                                !  criteria (SST<=Tf). Only used when RESTORE_SALINITY is True."	
+                                !  criteria (SST<=Tf). Only used when RESTORE_SALINITY is True."
+
+ADJUST_NET_SRESTORE_TO_ZERO = True
+				! "[Boolean] default = False
+				!  If true, adjusts the salinity restoring seen to zero
+                                !  whether restoring is via a salt flux or virtual precip."
+
+ADJUST_NET_SRESTORE_BY_SCALING = False
+				! "[Boolean] default = False
+				! If true, adjustments to salt restoring to achieve zero net are
+                                ! made by scaling values without moving the zero contour."
 
 ADJUST_NET_FRESH_WATER_TO_ZERO = True
                                 ! "[Boolean] default = False
