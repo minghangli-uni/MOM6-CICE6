@@ -120,12 +120,12 @@ NJHALO = 4
                                 ! in MOM_memory.h at compile time; without STATIC_MEMORY_
                                 ! the default is NJHALO_ in MOM_memory.h (if defined) or 2."
 
-NIGLOBAL = 360
+NIGLOBAL = 1440
                                 ! "The total number of thickness grid points in the
                                 ! x-direction in the physical domain. With STATIC_MEMORY_
                                 ! this is set in MOM_memory.h at compile time."
 
-NJGLOBAL = 300
+NJGLOBAL = 1080
                                 ! "The total number of thickness grid points in the
                                 ! y-direction in the physical domain. With STATIC_MEMORY_
                                 ! this is set in MOM_memory.h at compile time.
@@ -136,7 +136,7 @@ NJGLOBAL = 300
                                 ! The processor layout that was acutally used."
 
 ! === module MOM_verticalGrid ===
-NK = 50
+NK = 100
                                 ! "[nondim]
                                 ! The number of model layers."
 
@@ -192,7 +192,7 @@ MINIMUM_DEPTH = 0.5
 INPUTDIR = "./input/"
                                 ! "The directory in which input files are found."
 
-CHANNEL_CONFIG = global_1deg
+CHANNEL_CONFIG = none
                                 ! "default = 'none'
                                 ! A parameter that determines which set of channels are
                                 ! restricted to specific  widths.  Options are:
@@ -400,7 +400,7 @@ OCEAN_SURFACE_STAGGER = A
                                 ! returned to the coupler.  Valid values include
                                 ! 'A', 'B', or 'C'."
 
-RESTART_CONTROL = 3
+RESTART_CONTROL = 1
                                 ! "default = 1
                                 ! An integer whose bits encode which restart files are
                                 ! written. Add 2 (bit 1) for a time-stamped file, and odd
