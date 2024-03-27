@@ -116,7 +116,7 @@ ALLCOMP_attributes::
      hostname = gadi
      ice_ncat = 5
      mediator_present = true
-     mesh_atm = ./input/access-om2-nomask-025deg-ESMFmesh.nc
+     mesh_atm = ./input/access-om2-025deg-nomask-ESMFmesh.nc
      mesh_glc = UNSET
      mesh_ice = ./input/access-om2-025deg-ESMFmesh.nc
      mesh_lnd = UNSET
@@ -328,7 +328,7 @@ OCN_attributes::
 
 ROF_attributes::
      Verbosity = off
-     mesh_rof = ./input/access-om2-nomask-025deg-ESMFmesh.nc
+     mesh_rof = ./input/access-om2-025deg-nomask-ESMFmesh.nc
 ::
 
 WAV_attributes::
