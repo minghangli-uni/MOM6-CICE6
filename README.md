@@ -36,5 +36,7 @@ Others:
   - coupling timestep: 900s
   - ice dynamic timestep: 900s
 
+---
+The current configuration has run for up to 2 years and is still running on Gadi. 
 
 
