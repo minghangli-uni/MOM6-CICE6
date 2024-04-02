@@ -24,9 +24,9 @@ Most of the updates are sourced from discussions in [namelist-discussion](https:
 
 - Removal of mesoscale eddy mixing parametersiations (e.g., `USE_MEKE=False`)
 - Set `NK=50`. 
-  -Ongoing : `NK=75` to match `ACCESS-OM2-01` - use `KDS75 z*`
+  - Ongoing: Another configuration with `NK=75` to match `ACCESS-OM2-01` - use `KDS75 z*` is running simultaneously,
 - No parameters associated with `TIDES`
-- `NUM_DIAG_COORDS=2` includes `z_star` and `rho_2` ()
+- `NUM_DIAG_COORDS=2` includes `z_star` and `rho_2` (not sure if this is relevant for `0.25deg`([https://github.com/COSIMA/MOM6-CICE6/issues/40#issuecomment-1996247784](https://github.com/COSIMA/MOM6-CICE6/issues/40#issuecomment-1996247784)))
 
 ---
 Others:
