@@ -9,9 +9,9 @@ project: tm70
 shortpath: /scratch/tm70
 
 queue: normal
-ncpus: 240
+ncpus: 288
 jobfs: 10GB
-mem: 960GB
+mem: 1152GB
 
 walltime: 00:30:00
 jobname: 025deg_jra55do_ryf
@@ -27,7 +27,7 @@ input:
     - /g/data/ik11/inputs/JRA-55/RYF/v1-4 # datm and drof JRA55-do streams data
  
 collate: false
-runlog: false
+runlog: true
 
 userscripts:
     setup: ./setup_cice_restarts.sh

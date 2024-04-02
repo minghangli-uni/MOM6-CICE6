@@ -27,11 +27,11 @@ DRIVER_attributes::
 ::
 
 PELAYOUT_attributes::
-     atm_ntasks = 240
+     atm_ntasks = 288
      atm_nthreads = 1
      atm_pestride = 1
      atm_rootpe = 0
-     cpl_ntasks = 240
+     cpl_ntasks = 288
      cpl_nthreads = 1
      cpl_pestride = 1
      cpl_rootpe = 0
@@ -40,31 +40,31 @@ PELAYOUT_attributes::
      esp_nthreads = 1
      esp_pestride = 1
      esp_rootpe = 0
-     glc_ntasks = 240
+     glc_ntasks = 288
      glc_nthreads = 1
      glc_pestride = 1
      glc_rootpe = 0
-     ice_ntasks = 240
+     ice_ntasks = 288
      ice_nthreads = 1
      ice_pestride = 1
      ice_rootpe = 0
-     lnd_ntasks = 240
+     lnd_ntasks = 288
      lnd_nthreads = 1
      lnd_pestride = 1
      lnd_rootpe = 0
      ninst = 1
-     ocn_ntasks = 240
+     ocn_ntasks = 288
      ocn_nthreads = 1
      ocn_pestride = 1
      ocn_rootpe = 0
      pio_asyncio_ntasks = 0
      pio_asyncio_rootpe = 1
      pio_asyncio_stride = 0
-     rof_ntasks = 240
+     rof_ntasks = 288
      rof_nthreads = 1
      rof_pestride = 1
      rof_rootpe = 0
-     wav_ntasks = 240
+     wav_ntasks = 288
      wav_nthreads = 1
      wav_pestride = 1
      wav_rootpe = 0
@@ -300,7 +300,7 @@ CLOCK_attributes::
      tprof_n = -999
      tprof_option = never
      tprof_ymd = -999
-     wav_cpl_dt = 1800
+     wav_cpl_dt = 3600
 ::
 
 ATM_attributes::
@@ -344,7 +344,7 @@ MED_modelio::
      pio_numiotasks = -99
      pio_rearranger = 2
      pio_root = 1
-     pio_stride = 48
+     pio_stride = 288
      pio_typename = netcdf
 ::
 
@@ -356,7 +356,7 @@ ATM_modelio::
      pio_numiotasks = -99
      pio_rearranger = 1
      pio_root = 1
-     pio_stride = 48
+     pio_stride = 288
      pio_typename = netcdf
 ::
 
@@ -380,7 +380,7 @@ ICE_modelio::
      pio_numiotasks = 1
      pio_rearranger = 1
      pio_root = 0
-     pio_stride = 48
+     pio_stride = 288
      pio_typename = netcdf4p
 ::
 
@@ -392,7 +392,7 @@ OCN_modelio::
      pio_numiotasks = -99
      pio_rearranger = 2
      pio_root = 1
-     pio_stride = 48
+     pio_stride = 288
      pio_typename = netcdf
 ::
 
@@ -404,7 +404,7 @@ ROF_modelio::
      pio_numiotasks = -99
      pio_rearranger = 2
      pio_root = 1
-     pio_stride = 48
+     pio_stride = 288
      pio_typename = netcdf
 ::
 

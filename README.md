@@ -15,3 +15,26 @@ information.
 ## Requirements
 
 This configuration requires payu v1.0.29 or greater to run correctly.
+
+---
+Most of the updates are sourced from discussions in [namelist-discussion](https://forum.access-hive.org.au/t/namelist-configuration-discussion-meeting/1917/9?u=minghangli). Some significant updates are highlighted below,
+
+- surface boundary layer parameterisation: 
+  - Instead of KPP used in CVmix project, current configuration implements an energetic constrained parameterisation of the surface boundary layer (EPBL), providing vertically diffusivity and viscosity, and the depth of active mixing (BL thickness).
+
+- Removal of mesoscale eddy mixing parametersiations (e.g., `USE_MEKE=False`)
+- Set `NK=50`. 
+  -Ongoing : `NK=75` to match `ACCESS-OM2-01` - use `KDS75 z*`
+- No parameters associated with `TIDES`
+- `NUM_DIAG_COORDS=2` includes `z_star` and `rho_2` ()
+
+---
+Others:
+- timesteps
+  - baraclinic timestep dt: 900s
+  - tracer timestep: 3600s
+  - coupling timestep: 900s
+  - ice dynamic timestep: 900s
+
+
+
