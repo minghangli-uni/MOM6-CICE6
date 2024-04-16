@@ -1,0 +1,7 @@
+experiment_uuid: 3bccf70a-eaaa-4041-8414-4d471cde0b05
+created: '2024-04-17'
+name: MOM6-CICE6-1deg_jra55do_ryf-test-single_step_call-3bccf70a
+model: ACCESS-OM3
+url: git@github.com:minghangli-uni/MOM6-CICE6.git
+contact: minghangli-uni
+email: minghang.li1@anu.edu.au
